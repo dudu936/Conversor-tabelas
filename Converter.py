@@ -64,7 +64,8 @@ def main(pdf_file="relatorio.pdf", xlsx_file="relatorio.xlsx", index=0, print_di
             display(table)
           if ignore:
             create_excel_table(table, xlsx_file)
-        raise
+          else:
+             raise
       else:
           for table in tables:
             if rows:
