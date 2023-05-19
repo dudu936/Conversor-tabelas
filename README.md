@@ -34,4 +34,4 @@ Se você encontrar problemas na conversão, verifique se todas as dependências 
 Limitações
 Este código pode não funcionar corretamente se as tabelas no arquivo PDF tiverem uma formatação complexa ou se estiverem muito diferentes em termos de estrutura.
 O código atual trata cada tabela no arquivo PDF separadamente. Se o arquivo contiver várias tabelas com estruturas diferentes, pode ser necessário modificar o código para lidar com cada tabela de forma personalizada.
-Como o código utiliza a biblioteca tabula para extrair as tabelas do arquivo PDF, ele depende da capacidade do tabula em reconhecer corretamente as tabelas e convertê-las em objetos DataFrame do pandas. Portanto, a precisão da extração de 
+Como o código utiliza a biblioteca tabula para extrair as tabelas do arquivo PDF, ele depende da capacidade do tabula em reconhecer corretamente as tabelas e convertê-las em objetos DataFrame do pandas. Portanto, a precisão da extração de tabelas
