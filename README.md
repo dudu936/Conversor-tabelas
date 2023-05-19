@@ -1,4 +1,4 @@
-Conversão de PDF para Excel
+#Conversão de PDF para Excel
 Este código em Python permite converter tabelas de um arquivo PDF para um arquivo Excel (.xlsx) usando as bibliotecas tabula, pandas e openpyxl. O código contém funções para remover linhas e colunas indesejadas, separar colunas com base em um separador específico e criar um arquivo Excel a partir das tabelas extraídas.
 
 Pré-requisitos
